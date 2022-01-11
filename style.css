@@ -33,3 +33,10 @@
     left: 480px;  /* game width - block width (500 - 20)  */
     animation: block 1s infinite linear;
 }
+
+@keyframes block {
+    0%{left: 500px} 
+    /* block starts at right side */
+    100%{left: -20px}
+    /* ends past the the left side */
+}
